@@ -1,0 +1,89 @@
+
+.body--light {
+  --q-color-primary: #302AE6;
+  --q-color-secondary: #536390;
+  --q-color-accent: #9c27b0; 
+  --q-color-positive: #21ba45; 
+  --q-color-negative: #c10015; 
+  --q-color-info: #31ccec; 
+  --q-color-warning: #f2c037; 
+  --q-color-dark: #1d1d1d;
+}
+
+.body--dark {
+  --q-color-primary: #302AE6;
+  --q-color-secondary: #26a69a;
+  --q-color-accent: #9c27b0; 
+  --q-color-positive: #21ba45; 
+  --q-color-negative: #c10015; 
+  --q-color-info: #31ccec; 
+  --q-color-warning: #f2c037; 
+  --q-color-dark: #1d1d1d;
+}
+
+.body--dark .q-btn, .body--dark .q-icon{
+  color: lightgray ;
+}
+
+.body--light .q-btn , .body--light .q-icon, .body--light .text-color {
+  /* ... */
+  color: #5c5c5c;
+}
+
+
+.bg-hover{
+  background-image: linear-gradient(to right, var(--q-color-accent) , var(--q-color-primary));
+  transition: box-shadow 0.6s;
+  color: white;
+}
+
+.bg-hover .q-icon{
+  color: white;
+  
+}
+
+/*   elements-background-color   */
+.body--dark .bg-background{
+  background-color: #2e343a;
+}
+.body--light .bg-background{
+  background-color: #fafafa;
+}
+
+/*   main-background-color   */
+.body--dark .bg-main{
+  background-color: #202020;
+}
+.body--light .bg-main{
+  background-color: #f3f3f3;
+}
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* ::-webkit-scrollbar-thumb {
+  width: 0px;
+  background-color: #c1c1c1;
+  border-radius: 10px;
+  z-index: 12;
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  transition: background-color .32s ease-in-out;
+  margin: 4px;
+  min-height: 32px;
+  min-width: 32px;
+} */
+
+.q-message-text{
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+/* .q-message-text--received{
+  color: lightskyblue;
+}
+
+.q-message-text--sent{
+  color: rgb(255, 217, 91);
+}  */
